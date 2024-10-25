@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="/CSSs/style.css">
+    <link rel="stylesheet" href="/CSSs/extra.css">
+    <link rel="stylesheet" href="/CSSs/left.css">
+    <link rel="stylesheet" href="/CSSs/right.css">
+    <link rel="stylesheet" href="/CSSs/footer.css">
+    <link rel="stylesheet" href="/CSSs/media@1220.css">
+    <link rel="stylesheet" href="/CSSs/media@1000.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left flex-c">
+            <div class="upper">
+                <ul class="flex-c">
+                    <li>
+                        <ul class="Spoti_logo flex-r">
+                            <li>MusicPlayer</li>
+                            <li><img src="Assests/SVGs/close-md-svgrepo-com.svg"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="lower">
+                <div class="lower_header">
+                    <ul class="flex-r">
+                        <li><img src="Assests/SVGs/library.svg"></li>
+                        <li>Your Songs</li>
+                    </ul>
+                </div>
+                <div class="playlist">
+                    <!-- <div class="plylstsong">
+                        <div><img src="Assests/SVGs/music-note-svgrepo-com.svg"></div>
+                        <div>
+                            <p></p>
+                        </div>
+                        <div class="duration">34:23</div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <nav class="nav flex-r">
+                <button class="nav-btn sidebar-btn"><img src="Assests/SVGs/hamburger-svgrepo-com.svg"></button>
+                <button class="nav-btn">Sign Up</button>
+                <button class="nav-btn">Log In</button>
+            </nav>
+
+
+            <div class="spotifytext">Your Playlists</div>
+            <div class="cardbox flex-r">
+                <!-- <div class="card">
+                    <img src="">
+                    <p></p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="footer flex-r">
+        <div class="progressbar flex-c">
+            <ul class="flex-r">
+                <li><img class="prev" src="Assests/SVGs/previous-svgrepo-com.svg"></li>
+                <li><img class="play" src="Assests/SVGs/play-1003-svgrepo-com.svg"></li>
+                <li><img class="next" src="Assests/SVGs/next-svgrepo-com.svg"></li>
+            </ul>
+            <div class="songname">
+                <p></p>
+            </div>
+            <div class="song_nevigation">
+                <ul class="flex-r">
+                    <li>- : -</li>
+                    <li>
+                        <div class="musicbar">
+                            <div class="fillbar"></div>
+                        </div>
+                    </li>
+                    <li>- : -</li>
+                </ul>
+            </div>
+        </div>
+        <div class="volume">
+            <ul class="flex-r">
+                <li><img src="Assests/SVGs/volume-high-svgrepo-com.svg" alt="volume"></li>
+                <li>
+                    <div class="volumebar">
+                        <div class="fillbar"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

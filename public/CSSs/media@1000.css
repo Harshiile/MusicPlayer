@@ -1,0 +1,56 @@
+@media screen and (max-width:1000px) {
+    .footer {
+        grid-template-columns: 2fr;
+        position: relative;
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .volume {
+        display: none;
+    }
+
+    .musicbar {
+        width: 10px;
+    }
+
+    .musicbar_trans {
+        width: 500px;
+        transition: all 1s;
+    }
+
+    .card {
+        width: 60%;
+        height: 70px;
+        margin-top: 20px;
+        transition: all 1s;
+    }
+
+    .card img {
+        width: 45px;
+        height: 50px;
+    }
+
+    .card p:nth-child(2) {
+        position: absolute;
+        top: 18px;
+        left: 80px;
+    }
+}
+
+
+@media screen and (max-width:671px) {
+    .musicbar {
+        width: 55vw;
+    }
+
+    .songname {
+        width: 45vw;
+    }
+
+    .left {
+        width: 60%;
+    }
+}

@@ -1,0 +1,110 @@
+.footer {
+    width: 100%;
+    height: 16vh;
+    background-color: #121212;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.progressbar {
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.songname {
+    opacity: 0;
+}
+
+.progressbar ul {
+    list-style: none;
+    column-gap: 13px;
+}
+
+.progressbar img {
+    width: 23px;
+    height: 23px;
+}
+
+.progressbar img:hover {
+    cursor: pointer;
+}
+
+.progressbar ul li:nth-child(2)>img {
+    width: 19px;
+    height: 19px;
+}
+
+.songname {
+    width: 40%;
+    margin-top: -5px;
+    text-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.songname p {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(193, 191, 191);
+    width: 97%;
+    margin: auto;
+    padding: 0 10px 0 10px;
+    animation: scrolling 20s linear infinite;
+}
+
+.song_nevigation ul {
+    column-gap: 20px;
+    margin-top: -7px;
+}
+
+.musicbar {
+    width: 2vw;
+    height: 4px;
+    border-radius: 20px;
+    background-color: #242424;
+    cursor: pointer;
+}
+
+.musicbar_trans {
+    width: 40vw;
+    transition: all 1s;
+}
+
+.musicbar .fillbar {
+    width: 0%;
+    height: 3px;
+    border-radius: 20px;
+    background-color: #4ae839;
+    cursor: pointer;
+}
+
+.volume ul {
+    list-style: none;
+    column-gap: 12px;
+}
+
+.volume img {
+    width: 22px;
+    height: 22px;
+    margin-top: 2.5px;
+}
+
+.volume img:hover {
+    cursor: pointer;
+}
+
+.volumebar {
+    width: 8vw;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #242424;
+    cursor: pointer;
+}
+
+.volumebar .fillbar {
+    width: 40%;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #9b9b9b;
+    cursor: pointer;
+}
